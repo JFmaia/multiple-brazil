@@ -1,8 +1,17 @@
-# React + Vite
+# Multiple Brazil
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Projeto tem objetivo a criação de um site para busca de informações disponíveis do nosso brasil!
 
-Currently, two official plugins are available:
+## Tecnologias:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React-router
+- zustand
+- React.js
+- Chakra.ui
+
+## Como executar:
+
+- Execute ```yarn ``` ou ```npm i ```
+
+- Rodando o projeto: ``` yarn run dev ``` ou ```npm run dev ```
+
