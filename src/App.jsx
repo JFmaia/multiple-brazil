@@ -1,13 +1,22 @@
 import { Box, Text, Button} from '@chakra-ui/react'
+import { Link } from 'react-router-dom'
 function App() {
   return (
-    <Box pt={4} pb={4} pr={120} pl={120} shadow={'base'} display={'flex'} alignItems={'center'} justifyContent={'space-between'} bg={"#060118"}>
+    <Box py={4} px={120} shadow={'base'} display={'flex'} alignItems={'center'} justifyContent={'space-between'} bg={"#060118"}>
       <Text color='#fff' fontSize={'1.4rem'} fontFamily={'fantasy'}>Logo</Text>
       <Box display={'flex'} gap={10} alignItems={'center'}>
-        <Button p={1} rounded={4} color={'#fff'} bg={"none"} border={1}> Page one </Button>
-        <Button p={1} rounded={4} color={'#fff'} bg={"none"} border={1}> Page two </Button>
-        <Button p={1} rounded={4} color={'#fff'} bg={"none"} border={1}> Page tree </Button>
-        <Button p={1} rounded={4}  color={'#fff'} bg={'none'} border={1}> Page four </Button>
+        <Link to={"/"}>
+          <Button size='xs' py={1} px={2} rounded={4} color={'#fff'} bg={"none"} variant='link'> FIPE </Button>
+        </Link>
+        <Link to={"/"}>
+          <Button size='xs' py={1} px={2} rounded={4} color={'#fff'} bg={"none"} variant='link'> CNPJs </Button>
+        </Link>
+        <Link to={"/"}>
+          <Button size='xs' py={1} px={2} rounded={4} color={'#fff'} bg={"none"} variant='link'> Bancos </Button>
+        </Link>
+        <Link to={"/"}>
+          <Button size='xs' py={1} px={2} rounded={4} color={'#fff'} bg={"none"} variant='link'> Registros BRs </Button>
+        </Link>
       </Box>
     </Box>
   )
